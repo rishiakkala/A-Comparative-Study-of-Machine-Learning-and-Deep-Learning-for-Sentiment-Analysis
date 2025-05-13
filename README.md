@@ -63,14 +63,14 @@ Our approach included:
 
 ## Model Performance Summary
 
-| Model                    | R² Score | MSE   | Accuracy |
-|--------------------------|----------|-------|----------|
-| Logistic Regression      | 0.106    | 0.575 | -        |
-| Naive Bayes              | 0.136    | 0.454 | -        |
-| Gradient Boosting        | 0.189    | 0.243 | -        |
-| LSTM                     | 0.491    | 0.127 | -        |
-| BiLSTM                   | 0.442    | 0.234 | -        |
-| CNN-BiLSTM-Transformer   | 0.490    | 0.126 | 94%      |
+| Model                    | R² Score | MSE   |
+|--------------------------|----------|-------|
+| Logistic Regression      | 0.106    | 0.575 |
+| Naive Bayes              | 0.136    | 0.454 |
+| Gradient Boosting        | 0.189    | 0.243 |
+| LSTM                     | 0.491    | 0.127 |
+| BiLSTM                   | 0.442    | 0.234 |
+| CNN-BiLSTM-Transformer   | 0.490    | 0.126 |
 
 ## Conclusion
 Our study demonstrates that while traditional machine learning models are efficient and interpretable, deep learning models, especially hybrid architectures like CNN-BiLSTM-Transformer, significantly outperform them in capturing the complexity of textual data for sentiment analysis.
